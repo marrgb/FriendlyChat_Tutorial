@@ -111,6 +111,19 @@
 <!-- ***********************************************************************************************************************
      * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
      *********************************************************************************************************************** -->
+
+     <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+     <script>
+       // Initialize Firebase
+       var config = {
+         apiKey: "AIzaSyCKvOFyHnCMnZE49UN2pBFdInbJj2UCG80",
+         authDomain: "test-webchat.firebaseapp.com",
+         databaseURL: "https://test-webchat.firebaseio.com",
+         storageBucket: "test-webchat.appspot.com",
+         messagingSenderId: "653242832599"
+       };
+       firebase.initializeApp(config);
+     </script>     
 <script src="scripts/main.js"></script>
 </body>
 </html>
